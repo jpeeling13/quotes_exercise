@@ -5,7 +5,7 @@ import (
 )
 
 func TestFavs(t *testing.T){
-	quotes := favs()
+	quotes := Favs()
 	if quotes[0] != "\"To be or not to be, that is the question.\" - Hamlet"{
 		t.Errorf("quotes[0] = %s; want \"To be or not to be, that is the question.\" - Hamlet", quotes[0])
 	}

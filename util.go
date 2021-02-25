@@ -1,6 +1,6 @@
 package quotes_exercise
 
-func favs() []string {
+func Favs() []string {
 	myFavoriteQuotes := []string{
 		"\"To be or not to be, that is the question.\" - Hamlet",
 		"\"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.\" -James Cameron",
